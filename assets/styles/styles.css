@@ -1,0 +1,115 @@
+.container__main {
+    display: grid;
+    justify-content: center;
+
+    color: #63a2d6;
+    background-color: #f5f5f5;
+    padding: 20px;
+
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container__main img {
+    width: 130px;
+    height: auto;
+}
+
+.h1__container__main {
+    font-size: 50px;
+
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.items__container,
+.description__container {
+    list-style-type: none;
+}
+
+.items__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.li__items__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: auto;
+
+    border: solid 5px #63a2d6;
+
+    padding: 20px;
+}
+
+.price__items {
+    /*margin: 0 auto;*/
+    text-align: right;
+    margin-left: auto;
+
+    font-weight: 700;
+
+
+}
+
+#totalPrice {
+    font-weight: 700;
+}
+
+.totalPrice {
+    text-align: center;
+}
+
+#couponButton {
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #63a2d6;
+
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#creator {
+    color: #63a2d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.creator__link {
+    text-align: center;
+}
+
+.creator__link img {
+    width: 50px;
+}
+
+.creator__link-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+
+
+    /*text-shadow: black 0 0 10px;*/
+}
